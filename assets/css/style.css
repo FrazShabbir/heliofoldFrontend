@@ -114,6 +114,26 @@ a{
     opacity: 0.9;
 }
 
+.purple-btn-outline {
+    background-color: var(--white);
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: var(--purple);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s all ease;
+    border: 1px solid var(--purple);
+}
+
+.purple-btn-outline:hover {
+    background-color: var(--purple);
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+}
+
 
 
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -347,4 +367,354 @@ a{
 
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
     End Contact Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Start After Banner Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.after-banner-sec{
+    padding: 60px 0;
+}
+
+.after-banner-card{
+    background-color: var(--light);
+    padding: 26px 28px 16px 23px;
+    border-radius: 12px;
+    width: 100%;
+}
+.after-banner-card .title{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--black);
+}
+.after-banner-card .desc {
+    font-size: 14px;
+    line-height: 1.38;
+    color: #3D3D3D;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    End After Banner Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    start Person Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+.person-section-box{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+}
+.person-img-box{
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+
+}
+.perosn-content-box{
+    background-color: var(--light);
+    padding: 50px 30px 40px 150px;
+    width: 83%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.person-section-box .purple-btn{
+    padding: 10px 30px;
+}
+.person-section-box p{
+    font-size: 17px;
+    line-height: 1.41;
+    color: var(--dark);
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    End Person Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    start Avantaje Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.avantaje-sec{
+    padding: 60px 0;
+}
+
+.avantaje-card{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 29px 37.2px 32px 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.07);
+    background-color: var(--white);
+    min-height: 200px;
+    margin-bottom: 25px;
+}
+.avantaje-card .img-box{
+    margin-right: 20px;
+}
+.avantaje-card .img-box img{
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.avantaje-card .contant-box .title{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 5px;
+}
+
+.avantaje-card .contant-box .desc {
+    font-size: 17px;
+    color: var(--dark);
+    margin-bottom: 0;
+}
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    End Avantaje Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Start Aplicati Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.aplicati-sec{
+    background-color: var(--light);
+    padding: 60px 0;
+}
+.aplicati-heading{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dark);
+}
+.aplicati-item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 20px 0;
+}
+.aplicati-item .img-box{
+    margin-right: 20px;
+}
+.aplicati-item .img-box img{
+    width: 150px;
+    height: auto;
+}
+
+.aplicati-item .content-box p{
+    font-size: 20px;
+    color: var(--dark);
+    margin-bottom: 0;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    End Aplicati Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Start servicile Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+.servicile-sec{
+    padding: 100px 0 80px 0;
+}
+.servicile-card{
+    padding: 30px 0 50px;
+    border-radius: 20px;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.07);
+    margin-bottom: 20px;
+}
+.servicile-card .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+}
+.servicile-card img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: center center;
+}
+.servicile-card .desc {
+    font-size: 17px;
+    line-height: 1.41;
+    color: var(--black);
+}
+.servicile-card .purple-btn{
+    padding: 10px 30px;
+}
+.servicile-card .purple-btn-outline{
+    padding: 10px 30px;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    End servicile Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Start Abordare Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+.abordare-sec{
+    background-color: var(--light);
+    padding: 70px 0;
+}
+.abordare-sec .heading-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.abordare-sec .heading-box h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 0;
+}
+.abordare-sec .content-box p{
+    font-size: 17px;
+    line-height: 1.41;
+    color: var(--black);
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    End Abordare Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Start Produse Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+.produse-sec{
+    padding: 50px 0 70px 0;
+}
+.product-card{
+    padding: 27px 26px 36px 29px;
+    border-radius: 20px;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.07);
+    background-color: var(--white);
+    margin: 20px 10px;
+    position: relative;
+    /* z-index: 9999; */
+}
+.product-card .category{
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--yellow);
+    margin-bottom: 10px;
+}
+.product-card .name{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+    display: block;
+    margin-bottom: 5px;
+}
+.product-card .name:hover{
+    color: var(--purple);
+}
+.product-card .link{
+    font-size: 14px;
+    text-decoration: underline;
+    color: #787878;
+    display: block;
+}
+.product-card .link:hover{
+    color: var(--black);
+}
+.product-card .price{
+    font-size: 16px;
+    font-weight: 600;
+    color: #5C5C5C;
+}
+.product-card .purple-btn-outline{
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.product-card img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    object-position: center center;
+    margin: 25px 0;
+}
+#product-slider .owl-nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#product-slider .owl-nav button{
+    border: 1px solid var(--black);
+    border-radius: 50rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#product-slider .owl-nav button span{
+    position: relative;
+    top: -2px;
+    font-size: 30px;
+}
+#product-slider .owl-nav button:hover{
+    background-color: var(--purple);
+}
+#product-slider .owl-nav .owl-prev{
+    position: relative;
+    left: -60px;
+}
+#product-slider .owl-nav .owl-next {
+    position: relative;
+    right: -60px;
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    End Produse Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Start Slider Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+.slider-sec{
+    padding: 70px 0;
+}
+.slider-section-item img{
+    height: 300px!important;
+    width: 100%!important; 
+}
+#slider-section .owl-dots .owl-dot.active span,
+#slider-section .owl-dots .owl-dot:hover span{
+    background-color: var(--yellow);
+}
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    End Slider Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Start Sisteme Section CSS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    End Sisteme Section CSS
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/

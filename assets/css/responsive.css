@@ -22,6 +22,17 @@
     #main-nav{
         padding: 15px 70px;
     }
+
+    .border-lg-0{
+        border: 0;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    /* Produse Section */
+    #product-slider .owl-nav{
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
@@ -90,5 +101,96 @@
     }
     .contact-btm-link{
         font-size: 12px;
+    }
+    /* After Banner Section */
+    .after-banner-card {
+        margin-bottom: 20px;
+    }
+    /* Person Section */
+    .person-section-box{
+        flex-direction: column;
+    }
+    .person-img-box{
+        position: relative;
+        top: 120px;
+        left: unset;
+        transform: unset;
+        width: 95%;
+        text-align: center;
+    }
+    .person-img-box img{
+        border-radius: 10px;
+    }
+    .perosn-content-box{
+        padding-left: 30px;
+        width: 100%;
+        border-radius: 20px;
+        padding-top: 150px;
+    }
+    .person-section-box .purple-btn{
+        margin-top: 20px;
+    }
+    .person-section-box p{
+        font-size: 14px;
+        line-height: 1.41;
+        color: var(--dark);
+    }
+    /* Avantaje Section */
+    .avantaje-card{
+        flex-direction: column;
+    }
+    .avantaje-card .img-box{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .avantaje-card .img-box img{
+        height: 55px;
+        width: 55px;
+    }
+
+    .avantaje-card .contant-box .title{
+        font-size: 18px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .avantaje-card .contant-box .desc {
+        font-size: 14px;
+        text-align: center;
+    }
+    /* aplicati Section */
+    .aplicati-heading{
+        font-size: 18px;
+    }
+    .aplicati-item .content-box p{
+        font-size: 16px;
+    }
+    /* servicile Section */
+    .servicile-card img{
+        height: auto;
+    }
+    .servicile-card .desc{
+        font-size: 14px;
+    }
+    .servicile-card a{
+        font-size: 14px;
+    }
+    /* Abordare Section */
+    .abordare-sec .heading-box h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .abordare-sec .content-box p{
+        font-size: 14px;
+        text-align: center;
+    }
+    /* Produse Section */
+    #product-slider .owl-nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px){
+    .main-banner-sec{
+        padding-bottom: 50px;
     }
 }
