@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>00ACE7CE-3263-4226-9EAD-458FA738786A</title>
+    <defs>
+        <path d="M18.1818182,9.16691146 C18.6336875,9.16691146 19,9.5398979 19,10 C19,10.4601021 18.6336875,10.8330885 18.1818182,10.8330885 L7.54545455,10.8330885 C7.0935852,10.8330885 6.72727273,10.4601021 6.72727273,10 C6.72727273,9.5398979 7.0935852,9.16691146 7.54545455,9.16691146 L18.1818182,9.16691146 Z M6.72727273,7.45340605 L3.22583504,10 L6.72727273,12.5465939 L6.72727273,7.45340605 Z M8.36363636,5.83455729 L8.36363636,14.1654427 C8.36363636,14.8430541 7.61142477,15.2372083 7.06989602,14.8433547 L1.3426233,10.677912 C0.885792235,10.345659 0.885792235,9.65434098 1.3426233,9.32208797 L7.06989602,5.15664526 C7.61142477,4.76279166 8.36363636,5.15694593 8.36363636,5.83455729 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1299.000000, -7750.000000)">
+            <g id="Icon/tail-triangle-right" transform="translate(1299.000000, 7750.000000)">
+                <rect id="Box" x="0" y="0" width="20" height="20"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#111111" fill-rule="nonzero" transform="translate(10.000000, 10.000000) scale(-1, 1) translate(-10.000000, -10.000000) " xlink:href="#path-1"></use>
+                <g id="Fill/Color/Title" mask="url(#mask-2)" fill="#000000">
+                    <rect x="0" y="0" width="20" height="20"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

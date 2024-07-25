@@ -1,0 +1,94 @@
+@media (min-width: 992px) {
+
+    /* Large screens */
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar-brand img{
+        height: 40px;
+        width: auto;
+    }
+
+    .navbar-left {
+        margin-right: auto;
+    }
+
+    .navbar-right {
+        margin-left: auto;
+    }
+
+    #main-nav{
+        padding: 15px 70px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .footer-top .center-text{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .footer-bottom .copy-right-text {
+        margin-bottom: 10px;
+    }
+    .footer-bottom .center-text{
+        margin-bottom: 10px;
+        text-align: right;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-brand img{
+        height: 30px;
+        width: auto;
+    }
+    .footer-top .f-logo img{
+        margin-bottom: 10px;
+    }
+    .footer-top .center-text{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .footer-bottom .copy-right-text {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footer-bottom .center-text{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footer-menu-heading{
+        font-size: 14px;
+    }
+    .footer-main ul li{
+        margin-bottom: 5px;
+    }
+    .footer-main ul li a{
+        font-size: 12px;
+    }
+    /* General CSS */
+    .section-heading{
+        font-size: 24px;
+    }
+    .custom-form .form-label{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .custom-form .form-check-input{
+        margin-right: 0;
+    }
+    /* Contact section */
+    .contact-form-box{
+        padding: 30px 10px;
+    }
+    .contact-img-box img{
+        border-radius: 10px;
+    }
+    .contact-sec{
+        padding-top: 40px;
+    }
+    .contact-btm-link{
+        font-size: 12px;
+    }
+}
