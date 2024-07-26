@@ -198,6 +198,38 @@
     #product-slider .owl-nav{
         display: none;
     }
+    /* Alte Articole Section */
+    .article-card{
+        margin-bottom: 20px;
+    }
+    .article-card .link {
+        font-size: 14px;
+    }
+    .article-card .category,
+    .article-card .date{
+        font-size: 10px;
+    }
+    /* Articol Banner Section */
+    .articol-banner-sec .heading{
+        font-size: 17px;
+    }
+    .articol-banner-sec .desc{
+        font-size: 14px;
+    }
+    .articol-banner-sec{
+        padding: 50px 0 0 0 ;
+    }
+    /* regular Image Section */
+    .regular-img-sec .img-box img{
+        margin-bottom: 30px;
+    }
+    .regular-img-sec .content-box p{
+        font-size: 14px;
+    }
+    .regular-img-sec{
+        padding-bottom: 0;
+    }
+
 }
 @media only screen and (max-width: 576px){
     .main-banner-sec{
