@@ -31,6 +31,62 @@
           <a class="navbar-brand" href="#">
             <img src="assets/images/invalid-name.png" alt="">
           </a>
+          <div class="mega-menu">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-12">
+                <div class="">
+                  <ul>
+                    <li>
+                      <a id="show-submenu" class="d-flex align-items-center justify-content-between" href="">
+                        Panouri Fotovoltaice <i class="fa-solid fa-angle-right"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        Cabluri
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        Electrică
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        Sisteme de prindere
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-12">
+                <div class="sub-menu">
+                  <ul>
+                    <li>
+                      <a href="">
+                        Subcategorie 1
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        Subcategorie 2
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        Subcategorie 3
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        Subcategorie 4
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -39,7 +95,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav navbar-left mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Produse</a>
+                <a class="nav-link active" id="show-mega-menu" href="#">Produse</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Despre noi</a>
@@ -304,7 +360,7 @@
       </section>
       <!-- Slider Section -->
       <section class="slider-sec">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-12">
               <div id="slider-section" class="owl-carousel owl-theme">
@@ -338,7 +394,8 @@
                   Sisteme "gata-de-instalare”
                 </h2>
                 <p class="desc">
-                  Pachetele noastre solare preconfigurate, “Heliobox” sunt concepute pentru a se potrivi unei game largi de aplicații de
+                  Pachetele noastre solare preconfigurate, “Heliobox” sunt concepute pentru a se potrivi unei game largi
+                  de aplicații de
                   dimensiuni mici, medii și mari. La cerere, putem oferi orice fel de soluții personalizate.
                 </p>
                 <div class="">
@@ -716,8 +773,8 @@
       </section>
       <!-- Contact Section -->
       <section class="contact-sec">
-        <div class="container-fluid g-lg-0 g-md-0">
-          <div class="row align-items-center">
+        <div class="">
+          <div class="row align-items-center g-0 w-100">
             <div class="col-lg-6 col-md-6 col-12 order-lg-1 order-md-1 order-2">
               <div class="contact-form-box">
                 <h2 class="section-heading mb-30px">
@@ -987,6 +1044,50 @@
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
   <script>
+
+    //$(document).ready(function () {
+    //  $('#show-mega-menu').hover(function () {
+    //    $('.mega-menu').addClass('show');
+    //  }, function () {
+    //    $('.mega-menu').removeClass('show');
+    //  });
+    //});
+
+    $(document).ready(function () {
+      $('#show-submenu').click(function (event) {
+        event.preventDefault(); // Prevent the default anchor behavior
+
+        // Toggle the 'active' class on the clicked link
+        $(this).toggleClass('active');
+
+        // Toggle the 'show' class on the submenu
+        $('.sub-menu').toggleClass('show');
+      });
+    });
+
+    $(document).ready(function () {
+      $('#show-mega-menu').mouseenter(function () {
+        $('.mega-menu').addClass('show');
+      });
+
+      $('#show-mega-menu').mouseleave(function () {
+        setTimeout(function () {
+          if (!$('.mega-menu:hover').length) {
+            $('.mega-menu').removeClass('show');
+          }
+        }, 100);
+      });
+
+      $('.mega-menu').mouseleave(function () {
+        $('.mega-menu').removeClass('show');
+      });
+
+      $('.mega-menu').mouseenter(function () {
+        $('.mega-menu').addClass('show');
+      });
+    });
+
+
     $('#product-slider').owlCarousel({
       loop: true,
       margin: 0,

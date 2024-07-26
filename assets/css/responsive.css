@@ -50,6 +50,16 @@
 }
 
 @media (max-width: 768px){
+    /* mega Menu */
+    .mega-menu .sub-menu{
+        position: absolute;
+        background: #fff;
+        top: 90px;
+        left: 0;
+        padding: 30px 85px;
+        border: 0;
+    }
+    /* Navbar CSS */
     .navbar-brand img{
         height: 30px;
         width: auto;
