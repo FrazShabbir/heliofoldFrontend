@@ -229,6 +229,10 @@
     .regular-img-sec{
         padding-bottom: 0;
     }
+    /* Blog Banner */
+    .Blog-banner-sec .item .content-box{
+        width: 100%;
+    }
 
 }
 @media only screen and (max-width: 576px){
