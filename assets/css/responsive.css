@@ -296,3 +296,13 @@
         padding-right: 21px;
     }
 }
+
+
+@media only screen and (max-height: 700px){
+    #cartModal {
+        top: 70px;
+        background-color: #fbfbfb;
+        border: none;
+        max-height: 100%;
+    }
+}

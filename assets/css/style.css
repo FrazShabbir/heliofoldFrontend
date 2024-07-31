@@ -344,7 +344,11 @@ a {
     top: 70px;
     background-color: #fbfbfb;
     border: none;
-    height: 700px;
+    max-height: 650px;
+}
+#cartModal .offcanvas-body{
+    max-height: 500px;
+    overflow-y: scroll;
 }
 #cartModal .offcanvas-footer{
     padding: 28px 36px 40px 33px;
