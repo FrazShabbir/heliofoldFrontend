@@ -106,7 +106,7 @@
             </ul>
             <ul class="navbar-nav navbar-right mb-2 mb-lg-0">
               <li class="nav-item position-relative">
-                <a class="nav-link" href="#"><i class="fa-light fa-cart-shopping me-3"></i><span
+                <a class="nav-link" data-bs-toggle="offcanvas" href="#cartModal" role="button" aria-controls="cartModal"><i class="fa-light fa-cart-shopping me-3"></i><span
                     class="cart-dot"></span>2</a>
               </li>
               <li class="nav-item">
@@ -122,6 +122,74 @@
           </div>
         </div>
       </nav>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="cartModal" data-bs-scroll="false" data-bs-backdrop="false" aria-labelledby="cartModalLabel">
+        <div class="offcanvas-header">
+          <!-- <h5 class="offcanvas-title" id="cartModalLabel">Offcanvas</h5> -->
+          <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+          <p class="heading">
+            Coș de cumpărături (4)
+          </p>
+          <div class="pro-item">
+            <div class="img-box">
+              <img src="assets/images/produc-list.png" alt="">
+              <span class="label">
+                3x
+              </span>
+            </div>
+            <div class="content-box">
+              <div class="product-detail">
+                <p class="name">
+                  Panouri Canadian Solar CS6R 435W TopCon Ntype
+                </p>
+                <p class="price">
+                  644,14 lei
+                </p>
+              </div>
+              <div class="delete-btn">
+                <i class="fal fa-trash-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="pro-item">
+            <div class="img-box">
+              <img src="assets/images/produc-list.png" alt="">
+              <span class="label">
+                3x
+              </span>
+            </div>
+            <div class="content-box">
+              <div class="product-detail">
+                <p class="name">
+                  Panouri Canadian Solar CS6R 435W TopCon Ntype
+                </p>
+                <p class="price">
+                  644,14 lei
+                </p>
+              </div>
+              <div class="delete-btn">
+                <i class="fal fa-trash-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas-footer">
+          <div class="price-box">
+            <p class="text">
+              Total
+            </p>
+            <p class="price">
+              715,54 Lei
+            </p>
+          </div>
+          <div class="btn-box">
+            <a href="">
+              FINALIZEAZĂ COMANDA
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <!-- Main Banner Section -->

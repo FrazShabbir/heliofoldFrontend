@@ -33,6 +33,43 @@
     #product-slider .owl-nav{
         display: none;
     }
+    /* Info Utile Page CSS */
+    .page-spacing{
+        padding: 0;
+    }
+    /* Comenzile Page CSS */
+    .comez-short-item{
+        margin-bottom: 20px;
+    }
+    /* Listing Produse */
+    .lisiting-sec .item{
+        display: block;
+        padding: 20px 30px;
+    }
+    .lisiting-sec .item .img-box{
+        padding: 0;
+        border: 0;
+        text-align: center;
+    }
+    .lisiting-sec .item .content-box{
+        padding: 0;
+    }
+    .lisiting-sec .item .content-box .price{
+        margin-bottom: 0;
+    }
+    .lisiting-sec .item .content-box .last-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* Shopping Cart Page */
+    .cart-bottom-box .text {
+        margin-bottom: 10px;
+    }
+
+    .cart-bottom-box input {
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
@@ -233,10 +270,29 @@
     .Blog-banner-sec .item .content-box{
         width: 100%;
     }
+    /* Info Utile Page CSS */
+    .contul-menu-sec .side-menu{
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .page-spacing{
+        margin-bottom: 80px;
+    }
+
+    /* Product Detail Page */
+    .product-detail-sec .content-box .nav-pills .nav-link{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    
 
 }
 @media only screen and (max-width: 576px){
     .main-banner-sec{
         padding-bottom: 50px;
+    }
+    .cart-top-box{
+        padding-right: 21px;
     }
 }
