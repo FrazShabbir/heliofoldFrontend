@@ -409,14 +409,16 @@ a {
 #cartModal .offcanvas-body .pro-item .img-box .label{
     position: absolute;
     top: -1px;
-    left: -1px;
-    background-color: var(--yellow);
+    left: -5px;
+    background-image: url('../images/label.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
     color: var(--white);
     font-size: 12px;
     font-weight: bold;
-    padding: 1px 6px;
-    border-top-right-radius: 50rem;
-    border-bottom-right-radius: 50rem;
+    padding: 1px 3px;
 }
 
 #cartModal .offcanvas-body .pro-item .content-box{
@@ -1590,16 +1592,19 @@ a {
     border: 1px solid #E5E5E5;
     margin-right: 15px;
     position: relative;
+    margin-left: 5px;
 }
 
 .comez-item-box .item-list-box .item .img-box .label {
-    background-color: var(--yellow);
-    border-top-right-radius: 50rem;
-    border-bottom-right-radius: 50rem;
-    padding: 2px 7px;
+    padding: 1px 4px;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -5px;
+    background-image: url('../images/label.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
     font-size: 12px;
     color: var(--white);
     font-weight: bold;
@@ -2331,11 +2336,13 @@ a {
 .order-sec .order-card .product-item .left-box .img-box .label {
     position: absolute;
     top: -1px;
-    left: -1px;
-    background-color: var(--yellow);
-    border-top-right-radius: 50rem;
-    border-bottom-right-radius: 50rem;
-    padding: 1px 6px;
+    left: -5px;
+    background-image: url('../images/label.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    padding: 1px 3px;
     font-size: 12px;
     font-weight: 600;
     color: var(--white);
