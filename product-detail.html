@@ -129,8 +129,13 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-6 col-12">
-              <div class="img-box">
-                <img src="assets/images/produc-list.png" alt="">
+              <div id="product-detail-slider" class="owl-carousel owl-theme">
+                <div class="img-box">
+                  <img src="assets/images/produc-list.png" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="assets/images/produc-list.png" alt="">
+                </div>
               </div>
             </div>
             <div class="col-lg-8 col-md-6 col-12">
@@ -276,11 +281,16 @@
                           </div>
                           <div class="col-12">
                             <p class="text mt-3">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                              book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                              unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                              recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's standard
+                              dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                              scrambled it to make a type specimen
+                              book. It has survived not only five centuries, but also the leap into electronic
+                              typesetting, remaining essentially
+                              unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                              Lorem Ipsum passages, and more
+                              recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                              Ipsum.
                             </p>
                           </div>
                         </div>
@@ -326,15 +336,20 @@
                           </div>
                           <div class="col-12">
                             <p class="text mt-3">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                              been the industry's
                               standard
-                              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                              dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                              scrambled it to make a type
                               specimen
-                              book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                              book. It has survived not only five centuries, but also the leap into electronic
+                              typesetting, remaining
                               essentially
-                              unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                              unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                              Lorem Ipsum passages,
                               and more
-                              recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                              recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                              Ipsum.
                             </p>
                           </div>
                         </div>
@@ -814,24 +829,20 @@
       });
     });
 
-    $('#product-slider').owlCarousel({
+    $('#product-detail-slider').owlCarousel({
       loop: true,
-      margin: 0,
+      margin: 10,
+      nav: false,
+      dots: true,
       responsive: {
         0: {
-          items: 1,
-          nav: false,
-          dots: true,
+          items: 1
         },
         600: {
-          items: 2,
-          nav: false,
-          dots: true,
+          items: 1
         },
         992: {
-          items: 4,
-          nav: true,
-          dots: false,
+          items: 1
         }
       }
     });
