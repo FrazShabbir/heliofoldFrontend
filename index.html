@@ -87,11 +87,17 @@
               </div>
             </div>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="d-flex align-items-center">
+            <span class="position-relative d-lg-none">
+              <a class="nav-link" data-bs-toggle="offcanvas" href="#cartModal" role="button" aria-controls="cartModal"><i
+                  class="fa-light fa-cart-shopping me-3"></i></a>
+            </span>
+            <a class="nav-link  d-lg-none d-flex align-items-center me-1" href="#"><img src="assets/images/user-circle.png" class="me-2" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav navbar-left mb-2 mb-lg-0">
               <li class="nav-item">
@@ -105,11 +111,11 @@
               </li>
             </ul>
             <ul class="navbar-nav navbar-right mb-2 mb-lg-0">
-              <li class="nav-item position-relative">
+              <li class="nav-item position-relative d-none d-lg-block">
                 <a class="nav-link" data-bs-toggle="offcanvas" href="#cartModal" role="button" aria-controls="cartModal"><i class="fa-light fa-cart-shopping me-3"></i><span
                     class="cart-dot"></span>2</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-none d-lg-block">
                 <a class="nav-link d-flex align-items-center" href="#"><img src="assets/images/user-circle.png"
                     class="me-2" alt=""><span>Contul meu</span></a>
               </li>
@@ -950,12 +956,18 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 order-lg-3 order-md-2 order-3">
-              <div class="">
+              <div class="custom-form">
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="Introdu adresa ta de e-mail"
                     aria-describedby="footer-search">
                   <span class="input-group-text" id="footer-search"><i
                       class="fa-regular fa-arrow-right-long"></i></span>
+                </div>
+                <div class="form-check mb-lg-4 mt-2">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Am citit si sunt de acord cu <a href="">Politica de confidențialitate</a>
+                  </label>
                 </div>
               </div>
             </div>

@@ -98,8 +98,8 @@
     }
     /* Navbar CSS */
     .navbar-brand img{
-        height: 30px;
-        width: auto;
+        height: auto;
+        width: 100px;
     }
     .footer-top .f-logo img{
         margin-bottom: 10px;
